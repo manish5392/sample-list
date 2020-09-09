@@ -1,49 +1,33 @@
 .App{
-  position: relative;
-  text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
-.frame {
-  height: 500px;
-  width: 50%;
-}
-.header{
-    position: absolute;
-    color: #0C6AE0;
-    margin-left: 5px;
-    top: 3px;
-    font-size: 20px;
+h3 {
+    text-align: center;
+    background: aliceblue;
+    padding: 10px;
+    color: #0871cd;
 }
 
-.footer{
-    position: absolute;
-    bottom: 25px;
-    font-size: 20px;
-    color: red;
-    left: 50%;
+.each-row {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
 }
 
-.setting-content {
-    height: 75px;
-    width: 50px;
-    background: #FFFFFF;
-    position: absolute;
-    left: 20px;
+.each-div {
+    padding: 25px;
+    border: 1px solid grey;
+    width: 20%;
 }
 
-.setting-close {
-    position: absolute;
-    color: #000000;
-    margin-left: 10px;
-    top: 3px;
-    font-size: 12px;
+.each-block {
+    display: flex;
+    width: 80%;
+    text-align: center;
 }
 
-.showVideo {
-    color: #FFFFFF;
-    background-color: #8e8eb5;
-    width: 5%;
-    margin-left: 45%;
-    padding: 3px;
-    cursor: pointer;
+.content {
+    margin-top: 10px;
 }
